@@ -5,7 +5,7 @@ class Page < ActiveRecord::Base
 
   has_many :attachments, :dependent => :destroy
 
-  validates_presence_of :title, :content, :section_id
+  validates_presence_of :title, :section_id
 
   scope :ordered, -> { order('updated_at desc') }
   scope :sorted, -> { order('position asc') }

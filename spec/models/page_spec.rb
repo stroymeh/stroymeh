@@ -5,7 +5,6 @@ describe Page do
     subject { FactoryGirl.build(:page) }
 
     it { should validate_presence_of(:title) }
-    it { should validate_presence_of(:content) }
     it { should be_valid }
   end
 end
