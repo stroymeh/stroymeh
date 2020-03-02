@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-ruby '2.3.5'
+ruby '2.6.5'
 
 group :default do
   gem 'acts-as-taggable-on',           '~> 3.4'
