@@ -2,7 +2,7 @@ language: ruby
 cache: bundler
 
 rvm:
-  - 2.3.5
+  - 2.6.5
 
 env:
   global:
@@ -24,6 +24,3 @@ script:
 before_script:
   - cp config/database.travis.yml config/database.yml
 
-addons:
-  code_climate:
-    repo_token: cb2f7c4fd22ace4926202598606e5e86587717ed03d66964cd02ae9ef24a4f6e
