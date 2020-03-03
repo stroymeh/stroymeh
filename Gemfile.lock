@@ -71,8 +71,6 @@ GEM
     celluloid (0.16.0)
       timers (~> 4.0.0)
     chunky_png (1.3.3)
-    codeclimate-test-reporter (0.4.7)
-      simplecov (>= 0.7.1, < 1.0.0)
     coderay (1.1.0)
     coercible (1.0.0)
       descendants_tracker (~> 0.0.1)
@@ -111,7 +109,6 @@ GEM
       thread_safe (~> 0.1)
       warden (~> 1.2.3)
     diff-lcs (1.2.5)
-    docile (1.1.5)
     dotenv (2.0.0)
     dotenv-rails (2.0.0)
       dotenv (= 2.0.0)
@@ -389,11 +386,6 @@ GEM
     simple_form (3.1.0)
       actionpack (~> 4.0)
       activemodel (~> 4.0)
-    simplecov (0.9.1)
-      docile (~> 1.1.0)
-      multi_json (~> 1.0)
-      simplecov-html (~> 0.8.0)
-    simplecov-html (0.8.0)
     slop (3.6.0)
     spring (1.4.0)
     sprockets (2.12.4)
@@ -438,7 +430,6 @@ DEPENDENCIES
   cancancan (~> 1.10)
   capybara
   carrierwave
-  codeclimate-test-reporter
   coffee-rails (~> 4.1.0)
   compass-rails
   devise

@@ -50,7 +50,6 @@ end
 
 group :test do
   gem 'capybara'
-  gem 'codeclimate-test-reporter',     :require => nil
   gem 'faker'
   gem 'guard-rspec'
   gem 'launchy'
