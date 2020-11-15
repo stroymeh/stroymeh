@@ -297,6 +297,7 @@ GEM
       net-ssh (>= 2.6.5)
     net-ssh (2.9.2)
     newrelic_rpm (3.17.0.325)
+    nio4r (2.5.4)
     nokogiri (1.10.10)
       mini_portile2 (~> 2.4.0)
     notiffany (0.0.4)
@@ -308,6 +309,8 @@ GEM
       coderay (~> 1.1.0)
       method_source (~> 0.8.1)
       slop (~> 3.4)
+    puma (4.3.5)
+      nio4r (~> 2.0)
     quiet_assets (1.1.0)
       railties (>= 3.1, < 5.0)
     rack (1.6.13)
@@ -461,6 +464,7 @@ DEPENDENCIES
   launchy
   newrelic_rpm
   pg
+  puma
   quiet_assets
   rails (~> 4.2.5)
   rake (< 11)
