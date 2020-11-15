@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-ruby '2.3.5'
+ruby '2.6.5'
 
 group :default do
   gem 'acts-as-taggable-on',           '~> 3.4'
@@ -34,6 +34,8 @@ group :default do
   gem 'simple_form'
   gem 'simple-navigation'
   gem 'uglifier',                      '>= 1.3.0'
+  gem 'xmlrpc'
+  gem 'rake',                          '< 11'
 end
 
 group :development, :test do
@@ -59,5 +61,6 @@ end
 
 group :production do
   gem 'newrelic_rpm'
-  gem 'puma'
+  # gem 'puma'
 end
+
