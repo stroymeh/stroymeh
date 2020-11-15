@@ -35,7 +35,7 @@ group :default do
   gem 'simple-navigation'
   gem 'uglifier',                      '>= 1.3.0'
   gem 'xmlrpc'
-  gem 'rake',                          '< 11'
+  gem 'rake',                          '< 13'
 end
 
 group :development, :test do
